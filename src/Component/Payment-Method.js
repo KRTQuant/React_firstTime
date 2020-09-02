@@ -4,6 +4,7 @@ import Step1 from './img/step1.png';
 import Step2 from './img/step2.png';
 import Step3 from './img/step3.png';
 import Step4 from './img/step4.png';
+import Logo from './img/logo-light.png';
 import './Payment-Method.css'
 
 function Payment_Method() {
@@ -24,7 +25,34 @@ function Payment_Method() {
                 <img src={Step4} alt="Step4" className='step-img'></img>
             </div>
             <div className='footer'>
-                
+                <div className='upper'>
+                    <div className='row'>
+                        <div className='box'>
+                            <img src={Logo} alt='footer-logo' className='footer-logo'></img>
+                            <p className='parag'>Lorem ipsum dolor sit amet, consectetur </p>
+                            <p className='parag'>adipiscing elit, sed do eiusmod tempor</p>
+                        </div>
+                        <div className='box'>
+                            <p className='header'> ลิงค์ติดต่อ </p>
+                            <p className='parag'> คอร์ส </p>
+                            <p className='parag'> เข้าสู่ระบบ </p>
+                            <p className='parag'> Register </p>
+                        </div>
+                        <div className='box'>
+                            <p className='header'> ติดต่อเรา </p>
+                            <p className='parag'> Tel. 0XX-XXX-XXXX </p>
+                            <p className='parag'> abcd01@gmail.com </p>
+                        </div>
+                    </div>
+                </div>
+                <div className='lower'>
+                    <hr className='light-gray footer-line'/>
+                    <div className='inner-text'>
+                        <p className='parag box'> Term & Condition </p>
+                        <p className='parag'> เกี่ยวกับเรา </p>
+                        <p className='parag f-end'> Mister Joe Kooler</p>
+                    </div>
+                </div>
             </div>
         </>
     )
